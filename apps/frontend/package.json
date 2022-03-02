@@ -5,7 +5,8 @@
   "scripts": {
     "start": "nx serve",
     "build": "nx build",
-    "test": "nx test"
+    "test": "nx test",
+		"postinstall": "cd ../.. && husky install apps/frontend/.husky"
   },
   "private": true,
   "dependencies": {
